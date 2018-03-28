@@ -6,7 +6,7 @@
   "author": "liorheber <lior.heber@kenshoo.com>",
   "license": "MIT",
   "scripts": {
-    "test": ""
+    "test": "BABEL_DISABLE_CACHE=1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
