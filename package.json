@@ -6,11 +6,16 @@
   "author": "liorheber <lior.heber@kenshoo.com>",
   "license": "MIT",
   "scripts": {
-    "test": "BABEL_DISABLE_CACHE=1"
+    "test": "cross-env BABEL_DISABLE_CACHE=1 jest"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1"
   }
 }
