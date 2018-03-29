@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "cross-env BABEL_DISABLE_CACHE=1 jest",
-    "build": "rollup --config rollup.config.js"
+    "build": "webpack --config config/webpack/webpack.config.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -18,8 +18,7 @@
     "cross-env": "^5.1.4",
     "jest": "^22.4.3",
     "regenerator-runtime": "^0.11.1",
-    "rollup": "^0.57.1",
-    "rollup-plugin-babel": "^3.0.3",
-    "rollup-plugin-node-resolve": "^3.3.0"
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
   }
 }
