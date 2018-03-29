@@ -1,5 +1,7 @@
-const placeholder = () => {
-  console.log("placeholder method");
-};
+import React from "react";
 
-export default placeholder;
+const VideoPlayer = () => (
+  <div>Hello World</div>
+);
+
+export default VideoPlayer;
